@@ -6,7 +6,7 @@ A conversational AI system combining speech recognition using fast-whisper, long
 
 - **Speech-to-Text**: High-quality transcription using Faster-Whisper
 - **Long-term Memory**: Vector storage with Mem0 and PostgreSQL/pgvector
-- **Multiple LLM Support**: OpenRouter or DeepSeek integration (using Deepseek v3.1 just released)
+- **Multiple LLM Support**: OpenRouter or DeepSeek integration
 - **Dual Interaction Modes**: Voice input or text-based interaction
 - **Contextual Responses**: AI responses informed by conversation history
 
@@ -95,7 +95,7 @@ LLM_PROVIDER=deepseek|openrouter # they both use the same Deepseek v3 0324 new m
 
 3. **Install Dependencies**:
 ```bash
-pip install -r  requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Running the System
