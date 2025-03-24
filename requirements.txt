@@ -1,0 +1,11 @@
+openai>=1.68.2
+python-dotenv>=1.0.1
+pydantic>=2.10.6
+mem0ai>=0.1.74
+faster-whisper==1.1.1
+pyaudio>=0.2.14
+termcolor>=2.5.0
+simpleaudio>=1.0.4
+soundfile>=0.13.1
+torch>=2.6.0
+
