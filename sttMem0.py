@@ -19,6 +19,9 @@ import pyaudio
 import wave
 import torch
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # === Configuration ===
 class TextAgentConfig(BaseModel):

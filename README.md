@@ -85,15 +85,20 @@ docker run --name mem0-pgvector \
 ```ini
 # Required
 OPENAI_API_KEY=your_key
-DATABASE_URL=postgresql://postgres:postgres@localhost:54329/postgres
 
 # LLM Provider (choose one)
 DEEPSEEK_API_KEY=your_key  # OR
 OPENROUTER_API_KEY=your_key
 LLM_PROVIDER=deepseek|openrouter # they both use the same Deepseek v3 0324 new model version released today! (03/24/25)
 ```
-
 3. **Install Dependencies**:
+
+```bash
+# Create and activate environment
+conda create -n whisper_env python=3.12
+conda activate whisper_env
+```
+
 ```bash
 pip install -r requirements.txt
 ```
