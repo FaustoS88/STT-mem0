@@ -3,7 +3,6 @@ python-dotenv>=1.0.1
 pydantic>=2.10.6
 mem0ai>=0.1.74
 faster-whisper==1.1.1
-ffmpeg>=6.1.2
 pyaudio>=0.2.14
 termcolor>=2.5.0
 simpleaudio>=1.0.4

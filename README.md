@@ -100,6 +100,10 @@ conda activate whisper_env
 ```
 
 ```bash
+brew install ffmpeg # MacOS (required for audio processing)
+```
+
+```bash
 pip install -r requirements.txt
 ```
 
