@@ -1,3 +1,5 @@
+> Spring 2025 experiment, no longer maintained. Kept for reference.
+
 # 🎙️ STT with Memory - AI Companion
 
 A conversational AI system combining speech recognition using fast-whisper, long-term memory with mem0 + postgresSQL and contextual awareness through two implementation versions.
